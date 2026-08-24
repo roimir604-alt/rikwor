@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RIK WOR — Gift Hub</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 45px 15px;
+    background: linear-gradient(135deg, #1b5e20, #080808);
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header .subtitle {
+    color: #aaa;
+    font-size: 16px;
+}
+
+.logo {
+    color: #66bb6a;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title h2 {
+    font-size: 28px;
+}
+
+.title p {
+    color: #888;
+    margin-top: 8px;
+}
+
+.rule {
+    background: #1b1b1b;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #43a047;
+}
+
+.rule h3 {
+    color: #66bb6a;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.rule p {
+    color: #ddd;
+    line-height: 1.7;
+    margin: 5px 0;
+}
+
+.warning {
+    border-left-color: #ff9800;
+}
+
+.warning h3 {
+    color: #ffb74d;
+}
+
+.moderation {
+    border-left-color: #d32f2f;
+}
+
+.moderation h3 {
+    color: #ff5252;
+}
+
+.donate {
+    text-align: center;
+    margin: 40px 0 25px;
+}
+
+.donate-button {
+    display: inline-block;
+    padding: 14px 30px;
+    background: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+.development {
+    color: #ff3333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #666;
+    border-top: 1px solid #1b1b1b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎁 Gift Hub</h1>
+    <p class="subtitle">
+        Сервер <span class="logo">RIK WOR</span>
+    </p>
+</header>
+
+
+<div class="container">
+
+    <div class="title">
+        <h2>📜 Правила сервера</h2>
+        <p>Основные правила и наказания проекта</p>
+    </div>
+
+
+    <!-- 1. Оскорбления -->
+
+    <div class="rule">
+        <h3>1. Оскорбления</h3>
+
+        <p>
+            <b>1.1</b> Оскорбление в матной форме — мут на 1 день.
+        </p>
+
+        <p>
+            <b>1.2</b> Оскорбление — мут на 3–6 часов.
+        </p>
+
+        <p>
+            <b>1.3</b> Оскорбление администрации — бан на 14 дней / мут на 50 дней.
+        </p>
+    </div>
+
+
+    <!-- 2. Нарушения проекта -->
+
+    <div class="rule">
+        <h3>2. Нарушения проекта</h3>
+
+        <p>
+            <b>2.1</b> Упоминание другого сервера — бан на 30–40 дней.
+        </p>
+
+        <p>
+            <b>2.2</b> Игра с читами — бан на 50 дней.
+        </p>
+
+        <p>
+            <b>2.3</b> Отказ от проверки — бан на 50 дней.
+        </p>
+
+        <p>
+            <b>2.4</b> Признание на проверке — бан на 30 дней.
+        </p>
+
+        <p>
+            <b>2.5</b> Признание в чате — бан на 10 дней.
+        </p>
+
+        <p>
+            <b>2.6</b> Оскорбление проекта — бан на 60 дней.
+        </p>
+    </div>
+
+
+    <!-- 3. Взлом и мошенничество -->
+
+    <div class="rule">
+        <h3>3. Взлом и мошенничество</h3>
+
+        <p>
+            <b>3.1</b> Взлом аккаунта — бан на 50 дней по IP.
+        </p>
+
+        <p>
+            <b>3.2</b> Попытка взлома аккаунта — бан на 50 дней.
+        </p>
+
+        <p>
+            <b>3.3</b> Выдача себя за администрацию — бан на 40 дней.
+        </p>
+
+        <p>
+            <b>3.4</b> Обмен ресурсов за реальные деньги — бан на 50 дней по IP.
+        </p>
+    </div>
+
+
+    <!-- 4. Только для модерации -->
+
+    <div class="rule moderation">
+        <h3>⚠️ Только для модерации</h3>
+
+        <p>
+            <b>4.1</b> Взятка — снятие с должности.
+        </p>
+
+        <p>
+            <b>4.2</b> Бан без проверки — снятие с должности.
+        </p>
+
+        <p>
+            <b>4.3</b> Проведение проверки без записи — снятие с должности.
+        </p>
+
+        <p>
+            <b>4.4</b> Мут без доказательств — снятие с должности.
+        </p>
+
+        <p>
+            <b>4.5</b> Разбан без разрешения администрации — снятие с должности.
+        </p>
+    </div>
+
+
+    <!-- ДОНАТ -->
+
+    <div class="donate">
+
+        <button class="donate-button" disabled>
+            💰 Донат
+        </button>
+
+        <p class="development">
+            🔴 В РАЗРАБОТКЕ
+        </p>
+
+    </div>
+
+</div>
+
+
+<footer>
+    © 2026 RIK WOR • Gift Hub
+</footer>
+
+</body>
+</html>
